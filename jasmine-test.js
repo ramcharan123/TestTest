@@ -9,7 +9,7 @@ describe("Temperature monitor Suite", function() {
       expect(one).toEqual(t.calculateResistance("Brown", "Red", "Brown", "Gold"))
     }); 
     });
-    describe("Described set[yellow, Blue, Violet, Silver] ",function(){
+    describe("Described set[yellow, Blue, purple, Silver] ",function(){
     
        it("Expect resistance of [Green, Blue, Violet, Silver]  = 5.1 ohms, +/-10%",function(){
       var t=new ResistorCalculator();
